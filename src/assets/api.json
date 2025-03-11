@@ -1,0 +1,696 @@
+{
+  "Flights": [
+    {
+      "id": 1,
+      "airline": "Qatar Airways",
+      "from": "Dubai",
+      "to": "Beijing",
+      "departureTime": "2025-03-01T16:00:00",
+      "arrivalTime": "2025-03-01T21:00:00",
+      "price": 2857,
+      "availableSeats": 18
+    },
+    {
+      "id": 2,
+      "airline": "Swiss International",
+      "from": "Singapore",
+      "to": "Shanghai",
+      "departureTime": "2025-03-01T07:00:00",
+      "arrivalTime": "2025-03-01T10:00:00",
+      "price": 1059,
+      "availableSeats": 14
+    },
+    {
+      "id": 3,
+      "airline": "American Airlines",
+      "from": "Los Angeles",
+      "to": "Toronto",
+      "departureTime": "2025-03-02T10:00:00",
+      "arrivalTime": "2025-03-02T14:00:00",
+      "price": 642,
+      "availableSeats": 13
+    },
+    {
+      "id": 4,
+      "airline": "Swiss International",
+      "from": "Singapore",
+      "to": "Istanbul",
+      "departureTime": "2025-03-02T11:00:00",
+      "arrivalTime": "2025-03-02T14:00:00",
+      "price": 2912,
+      "availableSeats": 19
+    },
+    {
+      "id": 5,
+      "airline": "Emirates",
+      "from": "New York",
+      "to": "Dubai",
+      "departureTime": "2025-03-03T20:00:00",
+      "arrivalTime": "2025-03-04T04:00:00",
+      "price": 403,
+      "availableSeats": 11
+    },
+    {
+      "id": 6,
+      "airline": "American Airlines",
+      "from": "Delhi",
+      "to": "Amsterdam",
+      "departureTime": "2025-03-03T11:00:00",
+      "arrivalTime": "2025-03-03T23:00:00",
+      "price": 562,
+      "availableSeats": 8
+    },
+    {
+      "id": 7,
+      "airline": "Japan Airlines",
+      "from": "Frankfurt",
+      "to": "Paris",
+      "departureTime": "2025-03-04T12:00:00",
+      "arrivalTime": "2025-03-04T20:00:00",
+      "price": 1140,
+      "availableSeats": 6
+    },
+    {
+      "id": 8,
+      "airline": "Qatar Airways",
+      "from": "Mumbai",
+      "to": "Rome",
+      "departureTime": "2025-03-04T13:00:00",
+      "arrivalTime": "2025-03-04T20:00:00",
+      "price": 2140,
+      "availableSeats": 20
+    },
+    {
+      "id": 9,
+      "airline": "United Airlines",
+      "from": "Dubai",
+      "to": "Sydney",
+      "departureTime": "2025-03-05T12:00:00",
+      "arrivalTime": "2025-03-05T15:00:00",
+      "price": 2502,
+      "availableSeats": 15
+    },
+    {
+      "id": 10,
+      "airline": "KLM Royal Dutch",
+      "from": "Shanghai",
+      "to": "Beijing",
+      "departureTime": "2025-03-05T11:00:00",
+      "arrivalTime": "2025-03-05T14:00:00",
+      "price": 1505,
+      "availableSeats": 18
+    },
+    {
+      "id": 11,
+      "airline": "Etihad Airways",
+      "from": "Beijing",
+      "to": "Delhi",
+      "departureTime": "2025-03-06T15:00:00",
+      "arrivalTime": "2025-03-06T22:00:00",
+      "price": 1930,
+      "availableSeats": 19
+    },
+    {
+      "id": 12,
+      "airline": "Singapore Airlines",
+      "from": "Hong Kong",
+      "to": "Rome",
+      "departureTime": "2025-03-06T11:00:00",
+      "arrivalTime": "2025-03-06T21:00:00",
+      "price": 1656,
+      "availableSeats": 16
+    },
+    {
+      "id": 13,
+      "airline": "Qatar Airways",
+      "from": "Singapore",
+      "to": "London",
+      "departureTime": "2025-03-07T17:00:00",
+      "arrivalTime": "2025-03-08T00:00:00",
+      "price": 953,
+      "availableSeats": 19
+    },
+    {
+      "id": 14,
+      "airline": "Turkish Airlines",
+      "from": "Bangkok",
+      "to": "Hong Kong",
+      "departureTime": "2025-03-07T16:00:00",
+      "arrivalTime": "2025-03-07T20:00:00",
+      "price": 619,
+      "availableSeats": 18
+    },
+    {
+      "id": 15,
+      "airline": "KLM Royal Dutch",
+      "from": "Toronto",
+      "to": "Istanbul",
+      "departureTime": "2025-03-08T06:00:00",
+      "arrivalTime": "2025-03-08T11:00:00",
+      "price": 1782,
+      "availableSeats": 13
+    },
+    {
+      "id": 16,
+      "airline": "Cathay Pacific",
+      "from": "Paris",
+      "to": "Frankfurt",
+      "departureTime": "2025-03-08T21:00:00",
+      "arrivalTime": "2025-03-09T09:00:00",
+      "price": 799,
+      "availableSeats": 18
+    },
+    {
+      "id": 17,
+      "airline": "American Airlines",
+      "from": "Istanbul",
+      "to": "Sydney",
+      "departureTime": "2025-03-09T13:00:00",
+      "arrivalTime": "2025-03-09T21:00:00",
+      "price": 1728,
+      "availableSeats": 12
+    },
+    {
+      "id": 18,
+      "airline": "Turkish Airlines",
+      "from": "Seoul",
+      "to": "Los Angeles",
+      "departureTime": "2025-03-09T07:00:00",
+      "arrivalTime": "2025-03-09T10:00:00",
+      "price": 863,
+      "availableSeats": 16
+    },
+    {
+      "id": 19,
+      "airline": "Turkish Airlines",
+      "from": "Toronto",
+      "to": "Los Angeles",
+      "departureTime": "2025-03-10T07:00:00",
+      "arrivalTime": "2025-03-10T16:00:00",
+      "price": 2601,
+      "availableSeats": 15
+    },
+    {
+      "id": 20,
+      "airline": "Air France",
+      "from": "Amsterdam",
+      "to": "Toronto",
+      "departureTime": "2025-03-10T11:00:00",
+      "arrivalTime": "2025-03-10T15:00:00",
+      "price": 2476,
+      "availableSeats": 13
+    },
+    {
+      "id": 21,
+      "airline": "KLM Royal Dutch",
+      "from": "Rome",
+      "to": "Amsterdam",
+      "departureTime": "2025-03-11T18:00:00",
+      "arrivalTime": "2025-03-11T22:00:00",
+      "price": 894,
+      "availableSeats": 8
+    },
+    {
+      "id": 22,
+      "airline": "Turkish Airlines",
+      "from": "Los Angeles",
+      "to": "London",
+      "departureTime": "2025-03-11T22:00:00",
+      "arrivalTime": "2025-03-12T08:00:00",
+      "price": 1625,
+      "availableSeats": 14
+    },
+    {
+      "id": 23,
+      "airline": "Air France",
+      "from": "Paris",
+      "to": "Hong Kong",
+      "departureTime": "2025-03-12T10:00:00",
+      "arrivalTime": "2025-03-12T20:00:00",
+      "price": 2776,
+      "availableSeats": 13
+    },
+    {
+      "id": 24,
+      "airline": "KLM Royal Dutch",
+      "from": "Amsterdam",
+      "to": "London",
+      "departureTime": "2025-03-12T07:00:00",
+      "arrivalTime": "2025-03-12T15:00:00",
+      "price": 1863,
+      "availableSeats": 12
+    },
+    {
+      "id": 25,
+      "airline": "Qatar Airways",
+      "from": "London",
+      "to": "Tokyo",
+      "departureTime": "2025-03-13T10:00:00",
+      "arrivalTime": "2025-03-13T22:00:00",
+      "price": 1087,
+      "availableSeats": 15
+    },
+    {
+      "id": 26,
+      "airline": "Singapore Airlines",
+      "from": "Amsterdam",
+      "to": "Seoul",
+      "departureTime": "2025-03-13T19:00:00",
+      "arrivalTime": "2025-03-14T04:00:00",
+      "price": 517,
+      "availableSeats": 18
+    },
+    {
+      "id": 27,
+      "airline": "Lufthansa",
+      "from": "Toronto",
+      "to": "Frankfurt",
+      "departureTime": "2025-03-14T21:00:00",
+      "arrivalTime": "2025-03-15T08:00:00",
+      "price": 2767,
+      "availableSeats": 11
+    },
+    {
+      "id": 28,
+      "airline": "Swiss International",
+      "from": "Istanbul",
+      "to": "Dubai",
+      "departureTime": "2025-03-14T20:00:00",
+      "arrivalTime": "2025-03-15T07:00:00",
+      "price": 2853,
+      "availableSeats": 14
+    },
+    {
+      "id": 29,
+      "airline": "Etihad Airways",
+      "from": "Mumbai",
+      "to": "Singapore",
+      "departureTime": "2025-03-15T11:00:00",
+      "arrivalTime": "2025-03-15T16:00:00",
+      "price": 1276,
+      "availableSeats": 17
+    },
+    {
+      "id": 30,
+      "airline": "Etihad Airways",
+      "from": "Tokyo",
+      "to": "Paris",
+      "departureTime": "2025-03-15T18:00:00",
+      "arrivalTime": "2025-03-16T02:00:00",
+      "price": 1236,
+      "availableSeats": 14
+    },
+    {
+      "id": 31,
+      "airline": "KLM Royal Dutch",
+      "from": "Rome",
+      "to": "Toronto",
+      "departureTime": "2025-03-16T15:00:00",
+      "arrivalTime": "2025-03-16T18:00:00",
+      "price": 1895,
+      "availableSeats": 14
+    },
+    {
+      "id": 32,
+      "airline": "Etihad Airways",
+      "from": "Seoul",
+      "to": "Los Angeles",
+      "departureTime": "2025-03-16T07:00:00",
+      "arrivalTime": "2025-03-16T15:00:00",
+      "price": 1709,
+      "availableSeats": 7
+    },
+    {
+      "id": 33,
+      "airline": "Turkish Airlines",
+      "from": "London",
+      "to": "Delhi",
+      "departureTime": "2025-03-17T18:00:00",
+      "arrivalTime": "2025-03-17T21:00:00",
+      "price": 497,
+      "availableSeats": 9
+    },
+    {
+      "id": 34,
+      "airline": "Turkish Airlines",
+      "from": "Frankfurt",
+      "to": "Beijing",
+      "departureTime": "2025-03-17T15:00:00",
+      "arrivalTime": "2025-03-17T18:00:00",
+      "price": 345,
+      "availableSeats": 10
+    },
+    {
+      "id": 35,
+      "airline": "Emirates",
+      "from": "Delhi",
+      "to": "London",
+      "departureTime": "2025-03-18T12:00:00",
+      "arrivalTime": "2025-03-18T20:00:00",
+      "price": 2449,
+      "availableSeats": 7
+    },
+    {
+      "id": 36,
+      "airline": "Lufthansa",
+      "from": "Istanbul",
+      "to": "Los Angeles",
+      "departureTime": "2025-03-18T21:00:00",
+      "arrivalTime": "2025-03-19T01:00:00",
+      "price": 2747,
+      "availableSeats": 12
+    },
+    {
+      "id": 37,
+      "airline": "Emirates",
+      "from": "Tokyo",
+      "to": "Shanghai",
+      "departureTime": "2025-03-19T14:00:00",
+      "arrivalTime": "2025-03-19T22:00:00",
+      "price": 2149,
+      "availableSeats": 14
+    },
+    {
+      "id": 38,
+      "airline": "Qatar Airways",
+      "from": "Shanghai",
+      "to": "London",
+      "departureTime": "2025-03-19T10:00:00",
+      "arrivalTime": "2025-03-19T18:00:00",
+      "price": 2561,
+      "availableSeats": 6
+    },
+    {
+      "id": 39,
+      "airline": "United Airlines",
+      "from": "Mumbai",
+      "to": "Shanghai",
+      "departureTime": "2025-03-20T15:00:00",
+      "arrivalTime": "2025-03-20T18:00:00",
+      "price": 1380,
+      "availableSeats": 8
+    },
+    {
+      "id": 40,
+      "airline": "Japan Airlines",
+      "from": "Singapore",
+      "to": "Shanghai",
+      "departureTime": "2025-03-20T17:00:00",
+      "arrivalTime": "2025-03-20T20:00:00",
+      "price": 1992,
+      "availableSeats": 14
+    },
+    {
+      "id": 41,
+      "airline": "Cathay Pacific",
+      "from": "Shanghai",
+      "to": "Rome",
+      "departureTime": "2025-03-21T10:00:00",
+      "arrivalTime": "2025-03-21T20:00:00",
+      "price": 1249,
+      "availableSeats": 14
+    },
+    {
+      "id": 42,
+      "airline": "Japan Airlines",
+      "from": "Rome",
+      "to": "Shanghai",
+      "departureTime": "2025-03-21T21:00:00",
+      "arrivalTime": "2025-03-22T03:00:00",
+      "price": 407,
+      "availableSeats": 6
+    },
+    {
+      "id": 43,
+      "airline": "Emirates",
+      "from": "Amsterdam",
+      "to": "Beijing",
+      "departureTime": "2025-03-22T21:00:00",
+      "arrivalTime": "2025-03-23T09:00:00",
+      "price": 2289,
+      "availableSeats": 16
+    },
+    {
+      "id": 44,
+      "airline": "Etihad Airways",
+      "from": "Rome",
+      "to": "Bangkok",
+      "departureTime": "2025-03-22T10:00:00",
+      "arrivalTime": "2025-03-22T18:00:00",
+      "price": 2214,
+      "availableSeats": 14
+    },
+    {
+      "id": 45,
+      "airline": "Delta Airlines",
+      "from": "Tokyo",
+      "to": "Los Angeles",
+      "departureTime": "2025-03-23T21:00:00",
+      "arrivalTime": "2025-03-24T02:00:00",
+      "price": 1299,
+      "availableSeats": 9
+    },
+    {
+      "id": 46,
+      "airline": "Etihad Airways",
+      "from": "Shanghai",
+      "to": "Bangkok",
+      "departureTime": "2025-03-23T19:00:00",
+      "arrivalTime": "2025-03-24T05:00:00",
+      "price": 764,
+      "availableSeats": 14
+    },
+    {
+      "id": 47,
+      "airline": "Lufthansa",
+      "from": "Bangkok",
+      "to": "Toronto",
+      "departureTime": "2025-03-24T07:00:00",
+      "arrivalTime": "2025-03-24T14:00:00",
+      "price": 848,
+      "availableSeats": 8
+    },
+    {
+      "id": 48,
+      "airline": "Swiss International",
+      "from": "Hong Kong",
+      "to": "Seoul",
+      "departureTime": "2025-03-24T18:00:00",
+      "arrivalTime": "2025-03-25T03:00:00",
+      "price": 1467,
+      "availableSeats": 11
+    },
+    {
+      "id": 49,
+      "airline": "Delta Airlines",
+      "from": "Paris",
+      "to": "Hong Kong",
+      "departureTime": "2025-03-25T08:00:00",
+      "arrivalTime": "2025-03-25T13:00:00",
+      "price": 1223,
+      "availableSeats": 10
+    },
+    {
+      "id": 50,
+      "airline": "Air France",
+      "from": "Seoul",
+      "to": "Mumbai",
+      "departureTime": "2025-03-25T18:00:00",
+      "arrivalTime": "2025-03-26T06:00:00",
+      "price": 1343,
+      "availableSeats": 15
+    },
+    {
+      "id": 51,
+      "airline": "British Airways",
+      "from": "Delhi",
+      "to": "Rome",
+      "departureTime": "2025-03-26T16:00:00",
+      "arrivalTime": "2025-03-27T01:00:00",
+      "price": 1758,
+      "availableSeats": 13
+    },
+    {
+      "id": 52,
+      "airline": "Delta Airlines",
+      "from": "Rome",
+      "to": "Mumbai",
+      "departureTime": "2025-03-26T06:00:00",
+      "arrivalTime": "2025-03-26T18:00:00",
+      "price": 2537,
+      "availableSeats": 5
+    },
+    {
+      "id": 53,
+      "airline": "American Airlines",
+      "from": "Dubai",
+      "to": "Frankfurt",
+      "departureTime": "2025-03-27T16:00:00",
+      "arrivalTime": "2025-03-28T01:00:00",
+      "price": 1684,
+      "availableSeats": 13
+    },
+    {
+      "id": 54,
+      "airline": "Cathay Pacific",
+      "from": "London",
+      "to": "Mumbai",
+      "departureTime": "2025-03-27T06:00:00",
+      "arrivalTime": "2025-03-27T13:00:00",
+      "price": 2879,
+      "availableSeats": 11
+    },
+    {
+      "id": 55,
+      "airline": "Air France",
+      "from": "Tokyo",
+      "to": "Bangkok",
+      "departureTime": "2025-03-28T21:00:00",
+      "arrivalTime": "2025-03-29T02:00:00",
+      "price": 341,
+      "availableSeats": 10
+    },
+    {
+      "id": 56,
+      "airline": "Singapore Airlines",
+      "from": "Tokyo",
+      "to": "Los Angeles",
+      "departureTime": "2025-03-28T20:00:00",
+      "arrivalTime": "2025-03-29T05:00:00",
+      "price": 1374,
+      "availableSeats": 8
+    },
+    {
+      "id": 57,
+      "airline": "Cathay Pacific",
+      "from": "New York",
+      "to": "Rome",
+      "departureTime": "2025-03-29T20:00:00",
+      "arrivalTime": "2025-03-30T03:00:00",
+      "price": 411,
+      "availableSeats": 9
+    },
+    {
+      "id": 58,
+      "airline": "Qatar Airways",
+      "from": "Tokyo",
+      "to": "Mumbai",
+      "departureTime": "2025-03-29T14:00:00",
+      "arrivalTime": "2025-03-29T22:00:00",
+      "price": 2483,
+      "availableSeats": 7
+    },
+    {
+      "id": 59,
+      "airline": "Cathay Pacific",
+      "from": "Los Angeles",
+      "to": "Bangkok",
+      "departureTime": "2025-03-30T18:00:00",
+      "arrivalTime": "2025-03-30T22:00:00",
+      "price": 1047,
+      "availableSeats": 8
+    },
+    {
+      "id": 60,
+      "airline": "Qatar Airways",
+      "from": "Mumbai",
+      "to": "Shanghai",
+      "departureTime": "2025-03-30T17:00:00",
+      "arrivalTime": "2025-03-31T05:00:00",
+      "price": 1062,
+      "availableSeats": 18
+    },
+    {
+      "id": 61,
+      "airline": "Singapore Airlines",
+      "from": "London",
+      "to": "Tokyo",
+      "departureTime": "2025-03-31T16:00:00",
+      "arrivalTime": "2025-04-01T04:00:00",
+      "price": 1455,
+      "availableSeats": 6
+    },
+    {
+      "id": 62,
+      "airline": "Lufthansa",
+      "from": "Istanbul",
+      "to": "Delhi",
+      "departureTime": "2025-03-31T09:00:00",
+      "arrivalTime": "2025-03-31T18:00:00",
+      "price": 969,
+      "availableSeats": 5
+    }
+  ],
+  "Offers": [
+    {
+      "id": 1,
+      "title": "Discounted Flights to Paris",
+      "shortDescription": "Get 20% off on flights to Paris!",
+      "description": "Book now and save on your next trip to Paris. Enjoy the stunning Eiffel Tower, the rich art and culture at the Louvre, and indulge in authentic French cuisine. Offer valid for a limited time only!",
+      "image": "paris-offer.webp"
+    },
+    {
+      "id": 2,
+      "title": "Exclusive Deal to New York",
+      "shortDescription": "Save big on your NYC adventure!",
+      "description": "Take a trip to the city that never sleeps with our exclusive discount on flights to New York. Explore Times Square, visit the Statue of Liberty, and experience Broadway like never before. Book today and make unforgettable memories!",
+      "image": "newyork-offer.webp"
+    },
+    {
+      "id": 3,
+      "title": "London Calling: Special Airfare",
+      "shortDescription": "15% off on all flights to London!",
+      "description": "Explore the historic landmarks of London, from Buckingham Palace to the Tower of London. Walk along the Thames and take in the vibrant culture of this iconic city. Book your flight now and enjoy a 15% discount!",
+      "image": "london-offer.webp"
+    },
+    {
+      "id": 4,
+      "title": "Escape to the Maldives",
+      "shortDescription": "Experience paradise at a discounted price!",
+      "description": "Take advantage of this limited-time offer on flights to the Maldives. Enjoy the breathtaking beaches, crystal-clear waters, and luxurious overwater villas. Perfect for a honeymoon or a relaxing getaway!",
+      "image": "maldives-offer.webp"
+    },
+    {
+      "id": 5,
+      "title": "Tokyo Adventure Awaits",
+      "shortDescription": "Fly to Tokyo with an amazing deal!",
+      "description": "Discover the unique blend of traditional culture and modern skyscrapers in Tokyo. From the bustling streets of Shibuya to the serene temples of Kyoto, Japan has something for everyone. Book now and enjoy exclusive discounts!",
+      "image": "tokyo-offer.webp"
+    },
+    {
+      "id": 6,
+      "title": "Rome: The Eternal City Awaits",
+      "shortDescription": "Enjoy special savings on flights to Rome!",
+      "description": "Explore the historic wonders of Rome, including the Colosseum, the Vatican, and the Trevi Fountain. Indulge in authentic Italian cuisine and immerse yourself in centuries of history. Don’t miss out on this exclusive deal!",
+      "image": "rome-offer.webp"
+    },
+    {
+      "id": 7,
+      "title": "Sydney Getaway Deals",
+      "shortDescription": "Great offers on flights to Sydney!",
+      "description": "Visit the land down under with discounted flights to Sydney! Enjoy the stunning Opera House, Bondi Beach, and the vibrant city life. Book now and experience Australia like never before!",
+      "image": "sydney-offer.webp"
+    },
+    {
+      "id": 8,
+      "title": "Bali: Your Dream Vacation",
+      "shortDescription": "Unmissable discounts on Bali flights!",
+      "description": "Escape to Bali, where tropical beaches, lush rice fields, and rich cultural heritage await. Whether you seek adventure or relaxation, Bali offers it all. Take advantage of our special fares today!",
+      "image": "bali-offer.webp"
+    },
+    {
+      "id": 9,
+      "title": "Dubai Luxury Travel Deal",
+      "shortDescription": "Fly to Dubai at an unbeatable price!",
+      "description": "Experience the luxury and innovation of Dubai. From the Burj Khalifa to the stunning desert safaris, Dubai is a city like no other. Book your discounted flight today and travel in style!",
+      "image": "dubai-offer.webp"
+    },
+    {
+      "id": 10,
+      "title": "Bangkok: A Cultural Experience",
+      "shortDescription": "Special fares on flights to Bangkok!",
+      "description": "Immerse yourself in the vibrant street markets, stunning temples, and delicious Thai cuisine in Bangkok. Book now and enjoy huge savings on your journey to this lively city!",
+      "image": "bangkok-offer.webp"
+    }
+  ]
+}

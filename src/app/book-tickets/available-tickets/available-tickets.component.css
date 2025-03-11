@@ -1,0 +1,84 @@
+.container {
+  max-width: 1000px;
+  text-align: center;
+  padding: 0 15px; /* Adjust padding to prevent misalignment */
+}
+
+.flight-card {
+  width: 320px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  padding: 15px; /* Changed from 300px to prevent shifting */
+}
+
+.flight-card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body h4 {
+  font-weight: bold;
+}
+
+.btn-success {
+  width: 100%;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: violet;
+}
+
+/* Title Section with Gradient */
+.title-section {
+  background: linear-gradient(45deg, #007bff, violet);
+  padding: 15px;
+  border-radius: 15px; /* Rounded edges */
+  margin: 5%;
+}
+
+/* Glassmorphism Filter Cards */
+.filter-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filter-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Input and Select Styling */
+.stylish-select,
+.stylish-input {
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  padding: 8px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.stylish-select:focus,
+.stylish-input:focus {
+  border-color: #6610f2;
+  box-shadow: 0 0 10px rgba(102, 16, 242, 0.3);
+}
+
+/* Labels Styling */
+label {
+  font-size: 16px;
+  color: #333;
+}

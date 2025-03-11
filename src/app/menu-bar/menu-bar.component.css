@@ -1,0 +1,53 @@
+/* Navigation Bar Styling */
+nav {
+  background: linear-gradient(45deg,blue, violet); /* Gradient background */
+  padding: 15px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Centering the Navigation Bar */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Menu List */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Menu Items */
+li {
+  margin: 0 20px;
+}
+
+/* Menu Links */
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Active Link */
+.active {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
